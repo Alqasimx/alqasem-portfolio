@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 760" role="img" aria-labelledby="title desc">
+  <title id="title">شبكة Router Security بخمسة أجهزة</title>
+  <desc id="desc">راوتر R1 وسويتش SW1 وخمسة أجهزة PC بعناوين 192.168.10.11 إلى 192.168.10.15</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#f7fbfc"/><stop offset="1" stop-color="#e2f0f3"/></linearGradient>
+    <linearGradient id="router" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#137c83"/><stop offset="1" stop-color="#0a4c62"/></linearGradient>
+    <linearGradient id="switch" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#e58b42"/><stop offset="1" stop-color="#b96035"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#16485c" flood-opacity=".17"/></filter>
+  </defs>
+  <rect width="1400" height="760" rx="34" fill="url(#paper)"/>
+  <path d="M0 585 C210 510 350 680 630 565 S1070 490 1400 580 V760 H0Z" fill="#d3e9ee" opacity=".6"/>
+  <text x="700" y="55" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#15384e">Topology 01 — شبكة تدريب Router Security</text>
+  <text x="700" y="88" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#62808b">كل الأجهزة في الشبكة 192.168.10.0/24 والبوابة هي R1</text>
+  <g filter="url(#shadow)">
+    <rect x="570" y="125" width="260" height="150" rx="26" fill="white"/>
+    <rect x="470" y="350" width="460" height="145" rx="26" fill="white"/>
+    <g fill="white"><rect x="70" y="570" width="230" height="125" rx="22"/><rect x="340" y="570" width="230" height="125" rx="22"/><rect x="610" y="570" width="230" height="125" rx="22"/><rect x="880" y="570" width="230" height="125" rx="22"/><rect x="1150" y="570" width="180" height="125" rx="22"/></g>
+  </g>
+  <g transform="translate(621 157)">
+    <rect width="158" height="82" rx="15" fill="url(#router)"/>
+    <circle cx="25" cy="27" r="6" fill="#75e0b5"/><circle cx="43" cy="27" r="6" fill="#75e0b5"/><circle cx="61" cy="27" r="6" fill="#f6c15e"/>
+    <path d="M22 59h112" stroke="#79d5d3" stroke-width="5" stroke-linecap="round" stroke-dasharray="3 12"/>
+    <text x="79" y="118" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#15384e">R1 Router</text>
+    <text x="79" y="145" text-anchor="middle" font-family="monospace" font-size="18" font-weight="700" fill="#e58b42">G0/0 • 192.168.10.1</text>
+  </g>
+  <g transform="translate(528 388)">
+    <rect width="344" height="65" rx="16" fill="url(#switch)"/>
+    <g fill="#ffe4bd"><circle cx="30" cy="32" r="5"/><circle cx="53" cy="32" r="5"/><circle cx="76" cy="32" r="5"/><circle cx="99" cy="32" r="5"/><circle cx="122" cy="32" r="5"/><circle cx="145" cy="32" r="5"/><circle cx="168" cy="32" r="5"/><circle cx="191" cy="32" r="5"/><circle cx="214" cy="32" r="5"/><circle cx="237" cy="32" r="5"/><circle cx="260" cy="32" r="5"/><circle cx="283" cy="32" r="5"/></g>
+    <text x="172" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" font-weight="700" fill="#15384e">SW1 Switch</text>
+    <text x="172" y="134" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#62808b">Fa0/1 ← G0/0 • توزيع الاتصال</text>
+  </g>
+  <g stroke="#e58b42" stroke-width="5" stroke-linecap="round" fill="none"><path d="M700 275v108"/><path d="M540 455L185 571"/><path d="M600 455L455 571"/><path d="M670 455v113"/><path d="M800 455L995 571"/><path d="M860 455l380 116"/></g>
+  <g fill="#e58b42"><circle cx="700" cy="325" r="7"/><circle cx="540" cy="510" r="7"/><circle cx="600" cy="510" r="7"/><circle cx="670" cy="510" r="7"/><circle cx="800" cy="510" r="7"/><circle cx="860" cy="510" r="7"/></g>
+  <g font-family="Arial,sans-serif" text-anchor="middle">
+    <g transform="translate(94 591)"><rect width="182" height="52" rx="10" fill="#d8f4ef"/><rect x="61" y="-1" width="60" height="38" rx="5" fill="#1b8e88"/><rect x="71" y="8" width="40" height="21" rx="2" fill="#d7f4ef"/><text x="91" y="72" font-size="19" font-weight="700" fill="#15384e">PC1</text><text x="91" y="96" font-family="monospace" font-size="15" fill="#0f6b78">.11</text></g>
+    <g transform="translate(364 591)"><rect width="182" height="52" rx="10" fill="#d8f4ef"/><rect x="61" y="-1" width="60" height="38" rx="5" fill="#1b8e88"/><rect x="71" y="8" width="40" height="21" rx="2" fill="#d7f4ef"/><text x="91" y="72" font-size="19" font-weight="700" fill="#15384e">PC2</text><text x="91" y="96" font-family="monospace" font-size="15" fill="#0f6b78">.12</text></g>
+    <g transform="translate(634 591)"><rect width="182" height="52" rx="10" fill="#d8f4ef"/><rect x="61" y="-1" width="60" height="38" rx="5" fill="#1b8e88"/><rect x="71" y="8" width="40" height="21" rx="2" fill="#d7f4ef"/><text x="91" y="72" font-size="19" font-weight="700" fill="#15384e">PC3</text><text x="91" y="96" font-family="monospace" font-size="15" fill="#0f6b78">.13</text></g>
+    <g transform="translate(904 591)"><rect width="182" height="52" rx="10" fill="#d8f4ef"/><rect x="61" y="-1" width="60" height="38" rx="5" fill="#1b8e88"/><rect x="71" y="8" width="40" height="21" rx="2" fill="#d7f4ef"/><text x="91" y="72" font-size="19" font-weight="700" fill="#15384e">PC4</text><text x="91" y="96" font-family="monospace" font-size="15" fill="#0f6b78">.14</text></g>
+    <g transform="translate(1174 591)"><rect width="132" height="52" rx="10" fill="#d8f4ef"/><rect x="36" y="-1" width="60" height="38" rx="5" fill="#1b8e88"/><rect x="46" y="8" width="40" height="21" rx="2" fill="#d7f4ef"/><text x="66" y="72" font-size="19" font-weight="700" fill="#15384e">PC5</text><text x="66" y="96" font-family="monospace" font-size="15" fill="#0f6b78">.15</text></g>
+  </g>
+  <rect x="30" y="716" width="1340" height="1" fill="#b8d4da"/>
+  <text x="700" y="744" text-anchor="middle" font-family="monospace" font-size="17" fill="#45687a">Gateway: 192.168.10.1   |   Mask: 255.255.255.0   |   PCs: 192.168.10.11 — .15</text>
+</svg>
